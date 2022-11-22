@@ -29,6 +29,8 @@ const JobTile = ({ job, setFilterList }) => {
     document.querySelector("#filter").classList.add('filter--active')
   };
 
+  const imgURL = new URL(`../assets/${logo.slice(9)}`, import.meta.url).href;
+
   return (
     <TileStyled
       css={{ marginBottom: "40px", "@bp1": { marginBottom: "24px" } }}
@@ -41,7 +43,7 @@ const JobTile = ({ job, setFilterList }) => {
         css={{ gap: "25px" }}
       >
         <FlexboxStyled align="center" css={{ gap: "24px", flexShrink: "0" }}>
-          <Logo src={`../src/assets/${logo.slice(9)}`} alt="logo" />
+          <Logo src={imgURL} alt="logo" />
           <FlexboxStyled
             direction="column"
             underlined

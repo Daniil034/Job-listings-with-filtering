@@ -5,7 +5,7 @@ const TileStyled = styled("div", {
   backgroundColor: "#fff",
   boxShadow: "0px 15px 20px -5px rgba(13, 113, 130, 0.15)",
   borderRadius: "$2",
-  transition: 'all 0.3s ease-in-out',
+  transition: "all 0.3s ease-in-out",
   m0auto: "",
   variants: {
     padding: {
@@ -39,6 +39,15 @@ const TileStyled = styled("div", {
   },
   defaultVariants: {
     padding: "jobTile",
+  },
+  "&.filter--active": {
+    padding: "20px",
+    marginBottom: "56px",
+    height: "auto",
+    "@bp1": {
+      padding: "20px 40px",
+      marginBottom: "40px",
+    },
   },
 });
 

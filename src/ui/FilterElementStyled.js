@@ -1,4 +1,5 @@
 import { styled } from "./stitches.config";
+import imgURL from '../assets/icon-remove.svg';
 
 const FilterElementStyled = styled("div", {
   fontSize: "$4",
@@ -19,7 +20,7 @@ const FilterElementStyled = styled("div", {
   },
   [`& > button`]: {
     backgroundColor: "$desaturatedDarkCyan",
-    backgroundImage: `url('./src/assets/icon-remove.svg')`,
+    backgroundImage: `url('${imgURL}')`,
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     width: "32px",

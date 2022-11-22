@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [frontendmentor.io](https://www.frontendmentor.io/solutions/job-listings-with-filtering-using-react-context-hook-and-stitches-Yc4vUTA7in)
 - Live Site URL: [Github pages](https://daniil034.github.io/Job-listings-with-filtering/)
 
 ## My process
@@ -46,6 +46,7 @@ Users should be able to:
 ### What I learned
 
 I learned basics of Stitches and how it can improve my experience of styling React components, though at first it was a pain in a ... to settle it in this project.
+I was also able to implement React hook createContext which is quite handy for such small projects over Redux.
 
 ### Continued development
 
